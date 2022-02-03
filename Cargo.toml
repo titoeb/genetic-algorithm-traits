@@ -1,9 +1,12 @@
 [package]
-name = "genetic_algo"
+name = "genetic-algorithm-traits"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Tim Toebrock"]
+license = "MIT"
+description = """
+Traits that can be used to implement genetic-algorithms for a specific domain.
+"""
 
 [profile.dev]
 opt-level = 3
