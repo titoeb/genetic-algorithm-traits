@@ -1,4 +1,8 @@
+// I allow unused imports here, because I just want to test in this file, that these
+// two traits can be imported from the trait.
+#[allow(unused_imports)]
 use genetic_algorithm_traits::Individual;
+#[allow(unused_imports)]
 use genetic_algorithm_traits::Population;
 
 #[test]
